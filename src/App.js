@@ -1,5 +1,7 @@
 import './App.css';
 import logo from "./imagenes/logo.png";
+import ListaDeTareas from './componentes/ListaDeTarea.js';
+
 
 
 function App() {
@@ -12,6 +14,7 @@ function App() {
       </div>
       <div className='tareas-listas-principal'>
         <h1>Mis Tareas</h1>
+        <ListaDeTareas />
       </div>
     </div>
   );

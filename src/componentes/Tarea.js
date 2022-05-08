@@ -1,0 +1,23 @@
+import React from "react";
+import { AiOutlineCloseSquare } from "react-icons/ai";
+import '../hojas-de-estilos/Tarea.css'
+
+function Tarea({ id, texto, completada, completarTarea, eliminarTarea }) {
+    return (
+        <div className={completada ? 'tarea-contenedor completada' : 'tarea-contenedor'} >
+            <div 
+            className="tarea-texto"
+            onClick={() => completarTarea(id)}>
+            {texto}
+            </div>
+            <div className="tarea-contenedor-icono"
+            onClick={() => eliminarTarea(id)}>
+                <AiOutlineCloseSquare className="tarea-icono" />  {/* la classe es como props */}
+            </div>
+
+        </div>
+    );
+
+}
+
+export default Tarea;
