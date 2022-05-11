@@ -21,7 +21,7 @@ function TareaFormulario(props) {
             completado: false
         }
        props.onSubmit(tareaNueva);
-    }
+    };
 
 
     return (

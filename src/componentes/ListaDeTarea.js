@@ -32,7 +32,7 @@ function ListaDeTarea() {
             return tarea;
         });
         setTareas(tareasActualizadas);
-    }
+    };
     return (
         <>
             <TareaFormulario onSubmit={agregarTarea} />

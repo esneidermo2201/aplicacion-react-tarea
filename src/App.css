@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 html,
 body{
     color: white;
@@ -11,7 +10,18 @@ body{
     font-family: sans-serif;
     margin-top: 40px;
 }
-
+.logo-esneider{
+    padding: 9px;
+    font-size: 18px;
+    font-family: sans-serif;
+    border: none;
+    border-radius: 0 4PX 4PX 0;
+    cursor: pointer;
+    background-color: #8d5b8b;
+    color: white;
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 h1{
     color: #1b1b32;
     font-size: 25px;
